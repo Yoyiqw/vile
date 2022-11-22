@@ -1,0 +1,73 @@
+.main {
+    .deliver__marker {
+        background-size: contain;
+    }
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(4, 24%);
+        grid-column-gap: 40px;
+        justify-content: center;
+    }
+    &__punct {
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        &--title {
+            font-weight: 300;
+            font-size: 18px;
+            color: #373737;
+        }
+    }
+    .about {
+        background: #f8f8f8;
+        border-radius: 5px;
+        padding: 50px 0;
+        &__grid {
+            margin-top: 35px;
+            display: grid;
+            grid-template-columns: 40% 40%;
+            grid-column-gap: 83px;
+            justify-content: center;
+            font-weight: 100;
+            font-size: 16px;
+            color: #000000;
+        }
+    }
+    &__about {
+        &--content {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-column-gap: 90px;
+            justify-content: center;
+        }
+        &--description {
+            margin-top: 16px;
+            margin-bottom: 23px;
+            font-weight: 100;
+            font-size: 16px;
+            color: #000000;
+        }
+        &--img {
+            max-width: 100%;
+            overflow: hidden;
+            border-radius: 5px;
+            img {
+                width: 100%;
+            }
+        }
+        &--btn {
+            border: 1px solid #887569;
+            border-radius: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #887569;
+            padding: 21px 43px;
+            cursor: pointer;
+
+            svg {
+                margin-left: 19px;
+            }
+        }
+    }
+}

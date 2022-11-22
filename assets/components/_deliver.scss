@@ -1,0 +1,52 @@
+.deliver {
+    &__content {
+        padding-top: 27px;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 24px;
+        color: #373737;
+    }
+    &__description {
+        font-weight: 300;
+        font-size: 16px;
+        color: #373737;
+        &--main {
+            margin-top: 24px;
+            margin-bottom: 32px;
+        }
+        &--condition {
+            margin-top: 13px;
+        }
+    }
+
+    &__marker {
+        background: url(../assets/img/deliver/number.svg) center no-repeat;
+        font-size: 30px;
+        color: #dabfb4;
+        width: 63px;
+        height: 63px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__puncts {
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: 79px 1.5fr 5fr;
+        grid-template-rows: 2fr 2fr 4fr;
+        grid-row-gap: 47px;
+    }
+
+    &__name {
+        font-weight: 400;
+        font-size: 18px;
+        color: #373737;
+        margin-top: 10px;
+    }
+
+    &__condition {
+        margin-top: 46px;
+    }
+}

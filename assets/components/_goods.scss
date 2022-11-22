@@ -1,0 +1,16 @@
+.goods {
+    &__title {
+        font-weight: 300;
+        font-size: 36px;
+        color: #373737;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    &__items {
+        padding-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 27px;
+    }
+}

@@ -1,0 +1,32 @@
+.blog {
+    &__content {
+        padding-top: 22px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 50px;
+    }
+    &__name {
+        font-weight: 400;
+        margin: 12px 0;
+        font-size: 16px;
+    }
+    &__date {
+        color: #8d8d8d;
+    }
+    &__item {
+        margin-top: 50px;
+        & img {
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .blog {
+        &__content {
+            grid-template-columns: 50%;
+            justify-content: center;
+        }
+    }
+}

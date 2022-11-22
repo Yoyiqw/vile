@@ -1,0 +1,37 @@
+.events {
+    &__content {
+        margin-top: 20px;
+        position: relative;
+    }
+    &__description {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 158.4%;
+        color: #525252;
+    }
+    &__imgs {
+        position: relative;
+        float: right;
+        top: 0;
+        display: flex;
+        gap: 14px;
+        margin-left: 25px;
+    }
+    &__img {
+        overflow: hidden;
+        width: 312px;
+        height: 312px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .events {
+        &__imgs {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.filter {
+    width: 341px;
+    padding: 21px 19px;
+    box-sizing: border-box;
+    &__title {
+        font-weight: 400;
+        font-size: 18px;
+        color: #373737;
+        margin-bottom: 18px;
+    }
+    &__input {
+        border: 1px solid #887569;
+        border-radius: 8px;
+        padding: 14px 22px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #a9a9a9;
+        width: 147px;
+        box-sizing: border-box;
+    }
+    &__selector {
+        margin-bottom: 21px;
+    }
+    &__quantity {
+        font-weight: 400;
+        font-size: 14px;
+        color: #373737;
+        margin-top: 17px;
+    }
+    &__checker {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #be907e;
+            border-radius: 8px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    &__publish {
+        font-weight: 400;
+        font-size: 18px;
+        color: #373737;
+        margin: 24px 0;
+    }
+}
